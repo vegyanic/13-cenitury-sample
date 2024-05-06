@@ -1,0 +1,50 @@
+.bnr{
+vertical-align: text-bottom; 
+align-content: center;   
+padding-right: 250px;
+padding-left: 250px;
+}
+.card-it {
+    max-height: 685px;
+    max-width: 200 !important;
+}
+.navbar-brand {
+    text-align: center;
+}
+
+
+
+@media (max-width: 575px ) {
+    #lol{
+        
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .card-it{
+        max-width: 100%;
+    }
+}
+
+/* Media query for screens wider than 970px */
+@media (max-width: 900px) {
+    /* Hide elements with IDs #sch and #schb */
+    #sch,
+    #schb {
+      display: none;
+    }
+    .bnr{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    
+   
+    
+  }
+  
+.main{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
